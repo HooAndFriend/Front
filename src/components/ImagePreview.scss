@@ -1,0 +1,16 @@
+.uploader_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .text_editor {
+    width: 50vw;
+    height: 50vh;
+    .img_wrapper {
+      img {
+        width: 10vw;
+        margin: 0 auto;
+      }
+    }
+  }
+}
